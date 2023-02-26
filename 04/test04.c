@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define HOURS 3600
+#define TRUE 1
 
 int main(void)
 {
@@ -10,8 +11,9 @@ int main(void)
     int minutes = 0;
     int seconds = 0;
     int i = 0;
-    while (1)
+    while (TRUE)
     {
+        
         printf("\n시간계산기(%d)\n", i);
         printf("1000이상 정수(초)를 입력하세요.\n");
         scanf("%d", &num);
