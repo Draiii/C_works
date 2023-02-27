@@ -6,14 +6,14 @@
 int main(int argc, char *argv[])
 {
 
-    int repeat, temp, i, a[SIZE] = {1, 5, 2, 3, 4};
+    int repeat, temp, i, a[SIZE] = {12, 51, 27, 32, 45};
 
     printf("정렬전 배열 \n");
     for (i = 0; i < SIZE; i++)
     {
-        printf("%d ", a[i]);
+        printf("%d\t", a[i]);
     }
-
+printf("\n\n");
     for (repeat = 1; repeat < SIZE; repeat++)
     {
         for (i = 0; i < SIZE - 1; i++)
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
         }
         for (i = 0; i < SIZE; i++)
         {
-            printf("%d", a[i]);
+            printf("%d\t", a[i]);
         }
         printf("\n");
     }
@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
     printf("\n\n정렬후 배열 \n");
     for (i = 0; i < SIZE; i++)
     {
-        printf("%d ", a[i]);
+        printf("%d\t", a[i]);
     }
     return 0;
 }
