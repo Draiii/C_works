@@ -39,9 +39,9 @@ int main(void)
         sw *= -1;
     }
 
-    for (x = 0; x < repeat; x++)
+    for (x = 0; x < 5; x++)
     {
-        for (y = 0; y < repeat; y++)
+        for (y = 0; y < 5; y++)
         {
             printf("%d\t", alist[x][y]);
         }
