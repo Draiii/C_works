@@ -8,7 +8,7 @@
     },
     "tasks": [
         {
-            "label": "save and compile for C++",
+            "label": "C/C++ g++.exe build active file",
             "command": "g++",
             "args": [
                 "${file}",
