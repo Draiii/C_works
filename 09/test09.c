@@ -29,8 +29,8 @@ int main()
 
     // 12바이트 (인트형 * 3) 메모리를 동적할당하고 그 메모리 시작주소를 nData에 저장
     int *nData = (int *)malloc(sizeof(int) * 3);
-    *nData = 0;
-    printf("\nnData : %d\n", *nData);
+    //*nData = 0;
+    printf("\nnData : %p\n", *nData);
 
     // 동적할당 받은 메모리를 반환(해제)한다.
     free(nData);

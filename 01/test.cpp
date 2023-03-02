@@ -20,7 +20,7 @@ int main()
     {
         for (int j = 0; j < width - i; j++)
         {
-            cout << " ";
+            cout << "@";
         }
         for (int a = 0; a < i; a++)
         {
